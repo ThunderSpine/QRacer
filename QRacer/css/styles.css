@@ -127,4 +127,7 @@ html{
     margin-left: 20px;
     width: 48%;
     min-width: 250px;
-} 
+}
+.navbar-brand img{
+    height: 2rem;
+}
