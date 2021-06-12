@@ -1,0 +1,141 @@
+/* Configuration. */
+html{
+    background-color: #f7f7f7
+}
+.content{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Logo. */
+#qracerSvg{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: auto;
+}
+#qracerSvg img{
+    width: 75%;
+    margin: auto;
+}
+
+/* Black background section with white font */
+.blackSection {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4%;
+    background-color: #3a3a3a;
+}
+.blackSection h1{
+    padding: 2%;
+    color: #ffffff;
+    border-top: 5px solid #303030;
+    border-bottom: 5px solid #303030;
+    margin: auto;
+}
+.blackSection img{
+    margin: 20px;
+    width: 20%;
+    min-width: 200px;
+}
+
+/* White section with a cellphone picture */
+.phoneSecurity{ 
+    position: relative; 
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment:fixed;
+    background-image: url('phoneSecurity.jpeg');
+    background-size: cover;
+    margin: .5% 0% .5% 0%;
+    background-position: center;
+}
+.phoneSecurity::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+.phoneSecurity h1{
+    padding: 2%;
+    position: relative;
+    color: #303030;
+    border-top: 5px solid #303030;
+    border-bottom: 5px solid #303030;
+    margin: auto;
+}
+
+/* White section with a queue picture */
+.queueDiv{ 
+    position: relative;
+    height: 250px;
+    display: flex;
+    background-image: url('line.png');
+    background-attachment:fixed;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+.queueDiv::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+.queueDiv h1{
+    text-align: center;
+    padding: 2%;
+    position: relative;
+    color: #303030;
+    border-top: 5px solid #303030;
+    border-bottom: 5px solid #303030;
+    margin: auto;
+}
+
+/* Section in black, about paymet */
+.blackSection2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding: 4%;
+    background-color: #3a3a3a;
+}
+.blackSection2 h1{
+    padding: 2%;
+    width: 50%;
+    color: #ffffff;
+    border-top: 5px solid #303030;
+    border-bottom: 5px solid #303030;
+    margin: auto;
+}
+.blackSection2 img{
+    margin-left: 20px;
+    width: 48%;
+    min-width: 250px;
+}
+.navbar-brand img{
+    height: 2rem;
+}
+.navbar{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 1;
+    padding-top: 0;
+    padding-bottom: 0;
+}
