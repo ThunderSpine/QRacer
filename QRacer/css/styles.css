@@ -131,3 +131,11 @@ html{
 .navbar-brand img{
     height: 2rem;
 }
+.navbar{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 1;
+    padding-top: 0;
+    padding-bottom: 0;
+}
