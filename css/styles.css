@@ -15,6 +15,7 @@ html{
 }
 #qracerSvg img{
     width: 75%;
+    padding-bottom: 15vh;
     margin: auto;
 }
 
